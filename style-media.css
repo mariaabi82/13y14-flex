@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav{
+    background-color:#343a40;
+    height: 75px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 400px;
+    font-size: 24px;
+}
+
+
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.header{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    height: 400px;
+    background-color: #1abc9c;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+.img-perfil{
+    width: 100px;
+    padding-top: 50px;
+}
+
+.portfolio{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    height: 600px;
+    background-color: white;
+    padding-top: 50px;
+    text-align: center;
+    color: #343a40;
+ 
+    
+}
+
+.arriba, .abajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.alineado{
+    width: 300px;
+    margin: 40px solid transparent;
+    
+}
+ .alineado img{
+     width: 100%;
+     height: auto;
+     border-radius: 5px;
+     margin: 10px;
+ }
+
+ .up{
+     background-color: #343a40
+     color: white;
+     height: 40px;
+     width: 40px;
+     border: 1px solid #343a40;
+     position: relative;
+     right: 30px
+ }
+
+.about{
+    padding-top: 200px;
+    height: 400px;
+    background-color: #1abc9c;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    
+}
+
+.about-text{
+    display: inline-block;
+    height: 70px;
+    width: 300px;
+    text-align: left;
+}
+
+
+.contact{
+    background-color:#343a40;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+
+
+
+@media (max-width:600){ 
+
+.portfolionav, .aboutnav, .contactnav{
+    display: none;
+}
+
+.header h1{
+    
+    font-size: 8px;
+}
+
+.header{
+    height: 50%;
+}
+
+}
